@@ -6,7 +6,7 @@ public class _47CardapioDaLanchonete {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("=== CARDÁPIO ===");
+        System.out.println("=== CARDaPIO ===");
         System.out.println("1: Hambúrguer - R$ 25,00");
         System.out.println("2: Pizza - R$ 40,00");
         System.out.println("3: Salada - R$ 18,00");
@@ -24,7 +24,7 @@ public class _47CardapioDaLanchonete {
 
         switch (opcao) {
             case 1:
-                item = "Hambúrguer";
+                item = "Hamburguer";
                 precoUnitario = 25.00;
                 break;
             case 2:
@@ -41,7 +41,7 @@ public class _47CardapioDaLanchonete {
                 break;
             default:
                 opcaoValida = false;
-                System.out.println("Opção inválida.");
+                System.out.println("Opção invalida.");
                 break;
         }
 

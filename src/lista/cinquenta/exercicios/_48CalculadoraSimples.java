@@ -43,7 +43,7 @@ public class _48CalculadoraSimples {
                 }
                 break;
             default:
-                System.out.println("Operação inválida.");
+                System.out.println("Operação invalida.");
                 break;
         }
 

@@ -11,7 +11,7 @@ public class _01ApresentacaoUsuario {
 
         System.out.print("Digite a sua idade: ");
         int idade = sc.nextInt();
-        sc.nextLine(); // Consome quebra de linha
+        sc.nextLine();
 
         System.out.print("Digite a sua cidade: ");
         String cidade = sc.nextLine();

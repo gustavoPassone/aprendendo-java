@@ -7,8 +7,8 @@ public class _50PlanoDeAssinatura {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("=== PLANOS DE ASSINATURA ===");
-        System.out.println("1: Básico - R$ 29,90 por mês");
-        System.out.println("2: Intermediário - R$ 59,90 por mês");
+        System.out.println("1: Basico - R$ 29,90 por mês");
+        System.out.println("2: Intermediario - R$ 59,90 por mês");
         System.out.println("3: Premium - R$ 99,90 por mês");
 
         System.out.print("Escolha o plano (1 a 3): ");
@@ -23,11 +23,11 @@ public class _50PlanoDeAssinatura {
 
         switch (plano) {
             case 1:
-                nomePlano = "Básico";
+                nomePlano = "Basico";
                 valorMensal = 29.90;
                 break;
             case 2:
-                nomePlano = "Intermediário";
+                nomePlano = "Intermediario";
                 valorMensal = 59.90;
                 break;
             case 3:
@@ -36,7 +36,7 @@ public class _50PlanoDeAssinatura {
                 break;
             default:
                 planoValido = false;
-                System.out.println("Plano inválido.");
+                System.out.println("Plano invalido.");
                 break;
         }
 

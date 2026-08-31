@@ -11,7 +11,7 @@ public class _49PostoDeCombustivel {
         System.out.println("2: Etanol - R$ 4,20");
         System.out.println("3: Diesel - R$ 6,00");
 
-        System.out.print("Escolha o tipo de combustível (1 a 3): ");
+        System.out.print("Escolha o tipo de combustivel (1 a 3): ");
         int tipo = sc.nextInt();
 
         System.out.print("Digite a quantidade de litros: ");
@@ -36,13 +36,13 @@ public class _49PostoDeCombustivel {
                 break;
             default:
                 opcaoValida = false;
-                System.out.println("Tipo de combustível inválido.");
+                System.out.println("Tipo de combustivel invalido.");
                 break;
         }
 
         if (opcaoValida) {
             double totalPagar = litros * precoPorLitro;
-            System.out.printf("Combustível: %s | Litros: %.2f | Total a pagar: R$ %.2f%n", nomeCombustivel, litros, totalPagar);
+            System.out.printf("Combustivel: %s | Litros: %.2f | Total a pagar: R$ %.2f%n", nomeCombustivel, litros, totalPagar);
         }
 
         sc.close();

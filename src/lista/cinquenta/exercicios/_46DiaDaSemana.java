@@ -29,10 +29,10 @@ public class _46DiaDaSemana {
                 System.out.println("Sexta-feira");
                 break;
             case 7:
-                System.out.println("Sábado");
+                System.out.println("Sabado");
                 break;
             default:
-                System.out.println("Dia inválido.");
+                System.out.println("Dia invalido.");
                 break;
         }
 
