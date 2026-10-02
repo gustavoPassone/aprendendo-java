@@ -17,8 +17,8 @@ public class CalculadoraTeste01 {
 
         int numero = 50;
 
-        calculadora.soma();
-        calculadora.subtrair();
-        calculadora.multiplicar(numero01, numero02);
+        // calculadora.soma();
+        // calculadora.subtrair();
+        // calculadora.multiplicar(numero01, numero02);
     }
 }
